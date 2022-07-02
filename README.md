@@ -15,8 +15,8 @@ auxilia na extração de informações do Cadastro Único, destaca-se que
 este é uma ferramenta desenvolvida pelo Ministério da Cidadania.
 
 -   As funções criadas são:
-    -   Função selecionar e filtrar dados a nível de informação e
-        região;
+    -   Função selecionar e filtrar dados a nível de informação e região
+        (ok);
     -   Função para baixar os dados selecionados
 
 ## Instalação

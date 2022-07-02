@@ -22,7 +22,7 @@ Este pacote foi criado para a extração massiva de dados para que os usuários 
 [CECAD20](https://cecad.cidadania.gov.br/sobre.php) – Consulta, Seleção e Extração de Informações do CadÚnico. Este site é uma ferramenta que auxilia na extração de informações do Cadastro Único, destaca-se que este é uma ferramenta desenvolvida pelo Ministério da Cidadania.
 
 - As funções criadas são:
-  - Função selecionar e filtrar dados a nível de informação e região;
+  - Função selecionar e filtrar dados a nível de informação e região (ok);
   - Função para baixar os dados selecionados
 
 ## Instalação
