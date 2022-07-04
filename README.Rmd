@@ -58,3 +58,50 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+
+
+<!-- ################# -->
+# Criar pacote  #
+<!-- ################# -->
+
+# 1 - Verificar se o nome está disponíbvel
+available::available('CECAD20')
+
+# 2 - Criar a pasta com a estrutura básica de um pacote
+usethis::create_package('CECAD20')
+
+# 3- Ativar o git nesta pasta
+usethis::use_git()
+
+# 4 - Criar o projeto no github
+usethis::use_github()
+
+# 5 - Criar o read-me (já pode ser modificado em lugares específicos)
+usethis::use_readme_rmd()
+
+# Incluir a licensa (escolhi a MIT)
+usethis::use_mit_license()
+
+# Criar a primeira função (para baixar o id de cada UF)
+usethis::use_r('baixa_id_uf')
+
+# Já é importante criar um teste para esta função inicial
+usethis::use_testthat()
+usethis::use_test()
+
+# Ao utilizar um pacote, é necessário indicar que este é uma dependência
+usethis::use_package('httr')
+usethis::use_package('dplyr')
+usethis::use_package('xml2')
+usethis::use_package('rvest')
+usethis::use_package('tibble')
+usethis::use_pipe()
+devtools::document()
+
+
+# Criar arquivo de testes para a função
+usethis::use_test()
+
+# Criar a documentação (lembrar de estar com o cursor em cima da função a qual deseja criar a doc)
+Ctr+Alt+Shift+r
